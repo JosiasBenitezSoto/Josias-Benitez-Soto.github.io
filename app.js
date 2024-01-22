@@ -47,6 +47,7 @@ function limpiarCaja(){
 function generanumerosecreto(){
     let numerosecreto = Math.floor(Math.random()*10)+1;
     console.log(numerosecreto)
+    return numerosecreto;
 }
 
 function reiniciarJuego(){
